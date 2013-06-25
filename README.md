@@ -22,3 +22,6 @@ This is meant to be pretty Spartan. I just wanted to be able to just type 3-4 co
 
             + SASS or LESS Bootstrap (to be tranlsated in the default Grunt task) 
             + Pull out the "public" and, maybe, "view" folders so that they're seperate from the code
+            + Possibly add a "client side" section for coffeescript that needs to be compiled and placed into static folders
+            + Linting
+            + Testing
