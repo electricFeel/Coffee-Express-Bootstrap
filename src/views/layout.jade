@@ -1,0 +1,14 @@
+doctype 5
+html
+  head
+    block head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(src='/javascripts/bootstrap.js')
+    
+  body
+    div.row
+        span.span4
+            h1 nav right
+        span.span8
+            block content
