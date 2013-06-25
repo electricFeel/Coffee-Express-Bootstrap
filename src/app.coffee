@@ -5,7 +5,7 @@ path = require('path')
 app = express()
 
 app.configure ->
-    app.set('port', process.env.PORT || 3000)
+    app.set('port', process.env.PORT || 3001)
 
     app.use(express.bodyParser() )
     app.use(express.cookieParser() )
@@ -25,7 +25,7 @@ if 'development' is app.get('env')
     app.use(express.errorHandler() )
 
 app.get('/', (req,res)->
-    res.render('index', {title: 'Express'})
+    res.render('index', {title: 'Express'}))
 
 http.createServer(app).listen(app.get('port'), ->
-    console.log('Express server listening to port ' + app.get('port') ) )
+    console.log('Express server listening to port ' + app.get('port')))

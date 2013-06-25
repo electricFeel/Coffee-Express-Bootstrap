@@ -6,6 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "*",
+    "stylus": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-copy": "~0.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/electricFeel/Coffee-Express-Bootstrap.git"
@@ -17,4 +29,5 @@
   "bugs": {
     "url": "https://github.com/electricFeel/Coffee-Express-Bootstrap/issues"
   }
+
 }
