@@ -2,7 +2,7 @@ Coffee-Express-Bootstrap
 ========================
 ###Description
 
-This is just a Coffee-Script based Express project scaffolding. It includes Twitter Bootstrap and some basic Jade templates for layout and an index page. Also included is a Gruntfile.coffeescript that will automagically transpile the Coffeescript source files in the `src\` directory to Javascript files in a created folder `\dev\`.   
+This is just a Coffee-Script based Express project scaffolding. It includes Twitter Bootstrap and some basic Jade templates for layout and an index page. Also included is a Gruntfile.coffeescript that will automagically transpile the Coffeescript source files in the `\src\` directory to Javascript files in a created folder `\dev\`.   
 
 There is also a watch task in the Grunt file that will run the default task whenever a file changes. 
 
