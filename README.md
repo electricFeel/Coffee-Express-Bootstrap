@@ -15,3 +15,10 @@ Assuming you already have both Coffeescript and Node.js installed, the path of l
             - Navigate to the newly created '/dev' directory and type 'node app.js'
 
 Then the rest is simply building a website. Lather, rinse, repeat.
+
+Todo:
+--------------------------
+This is meant to be pretty Spartan. I just wanted to be able to just type 3-4 commands to get to the point where I'm actually coding. That being said there are a number of things I still want to add:
+
+            + SASS or LESS Bootstrap (to be tranlsated in the default Grunt task) 
+            + Pull out the "public" and, maybe, "view" folders so that they're 
