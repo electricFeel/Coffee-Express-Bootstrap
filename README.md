@@ -12,7 +12,7 @@ Assuming you already have both Coffeescript and Node.js installed, the path of l
 
             * Clone this repo
             * Do an `npm install` in the cloned root (where the Gruntfile is)
-            * Compile the Gruntfile.coffee: 'coffee -c Gruntfile.coffee'
+            * 'grunt' it (tyoe grunt in the terminal)
             * Navigate to the newly created '/dev' directory and type 'node app.js'
 
 Then the rest is simply building a website. Lather, rinse, repeat.
